@@ -1,0 +1,387 @@
+.mediaViewInfo {
+	--web-view-name: About;
+	--web-view-id: About;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: About;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#About {
+	position: absolute;
+	width: 1500px;
+	height: 2109px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: About;
+	--web-view-id: About;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#bench-accounting-nvzvOPQW0gc-u {
+	position: absolute;
+	width: 1499.859px;
+	height: 807.057px;
+	left: 0.441px;
+	top: -9.638px;
+	overflow: visible;
+}
+#Rectangle_8 {
+	fill: rgba(1,134,146,1);
+}
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 1504px;
+	height: 80px;
+	left: -4px;
+	top: 0px;
+}
+#ELISE {
+	left: 715px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}
+#Home {
+	left: 74px;
+	top: 26px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}
+#SHOP {
+	left: 148px;
+	top: 26px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	white-space: nowrap;
+	transition: all 0.2s ease-in-out;
+	--web-animation: fadein 0.2s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Shop.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}
+#ABOUT {
+	left: 219px;
+	top: 26px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 49.918px;
+	height: 4px;
+	left: 218.582px;
+	top: 62.28px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-search {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-search {
+	overflow: visible;
+	position: absolute;
+	width: 23.502px;
+	height: 23.502px;
+	left: 1342.506px;
+	top: 28.202px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-shopping-cart {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-shopping-cart {
+	overflow: visible;
+	position: absolute;
+	width: 23.502px;
+	height: 20.891px;
+	left: 1398.166px;
+	top: 29.769px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ABOUT_US {
+	left: 566px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#We_are_here_to_provide_you_the {
+	left: 252px;
+	top: 1023px;
+	position: absolute;
+	overflow: visible;
+	width: 961px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -7.5px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Sophisticated_glossy_and_refre {
+	left: 234px;
+	top: 1235px;
+	position: absolute;
+	overflow: visible;
+	width: 1033px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -7.5px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#We_provide_you_these_furniture {
+	left: 196px;
+	top: 1447px;
+	position: absolute;
+	overflow: visible;
+	width: 1109px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -7.5px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Get_a_fresh_perfectly_coordina {
+	left: 317px;
+	top: 804px;
+	position: absolute;
+	overflow: visible;
+	width: 867px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Rectangle_14 {
+	fill: transparent;
+	stroke: rgba(1,134,146,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 1101px;
+	height: 207px;
+	left: 200px;
+	top: 742px;
+}
+#Group_15 {
+	position: absolute;
+	width: 1500px;
+	height: 410px;
+	left: 0px;
+	top: 1699px;
+	overflow: visible;
+}
+#Group_12 {
+	position: absolute;
+	width: 1500px;
+	height: 410px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_4 {
+	fill: rgba(235,235,235,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 1500px;
+	height: 410px;
+	left: 0px;
+	top: 0px;
+}
+#Subscribe_to_our_Newsletter {
+	left: 511px;
+	top: 57px;
+	position: absolute;
+	overflow: visible;
+	width: 480px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#We_make_sure_you_dont_miss_any {
+	left: 602px;
+	top: 121px;
+	position: absolute;
+	overflow: visible;
+	width: 297px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Rectangle_5 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(199,199,199,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 508px;
+	height: 59px;
+	left: 496px;
+	top: 176px;
+}
+#Email_address_here {
+	opacity: 0.45;
+	left: 528px;
+	top: 193px;
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Rectangle_6 {
+	fill: rgba(1,134,146,1);
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	height: 56px;
+	left: 654px;
+	top: 270px;
+}
+#Subscribe {
+	left: 697px;
+	top: 284px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}

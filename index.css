@@ -1,0 +1,602 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	width: 1500px;
+	height: 3490px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Main_image {
+	position: absolute;
+	width: 1500px;
+	height: 763px;
+	left: 0px;
+	top: 54px;
+	overflow: visible;
+}
+#Rectangle_11 {
+	fill: rgba(1,134,146,1);
+}
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 1500px;
+	height: 76px;
+	left: 0px;
+	top: 0px;
+}
+#Line_6 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_6 {
+	overflow: visible;
+	position: absolute;
+	width: 134.056px;
+	height: 2px;
+	left: 0.135px;
+	top: 1677.386px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Home {
+	left: 75px;
+	top: 26px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 40.898px;
+	height: 4px;
+	left: 76.118px;
+	top: 60.212px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_12 {
+	fill: rgba(156,209,222,1);
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	height: 414px;
+	left: 117px;
+	top: 951px;
+}
+#PF_4 {
+	position: absolute;
+	width: 580.481px;
+	height: 387.29px;
+	left: 169.519px;
+	top: 1004.167px;
+	overflow: visible;
+}
+#SHOP {
+	left: 148px;
+	top: 26px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	transition: all 0.2s ease-in-out;
+	--web-animation: fadein 0.2s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Shop.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}
+#ELISE {
+	left: 717px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}
+#ABOUT {
+	left: 216px;
+	top: 26px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	transition: all 0.2s ease-in-out;
+	--web-animation: fadein 0.2s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: About.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}
+#AT_ELITE_SOFA {
+	left: 570px;
+	top: 154px;
+	position: absolute;
+	overflow: visible;
+	width: 336px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 71px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#The_design_is_made_for_your_co {
+	left: 511px;
+	top: 247px;
+	position: absolute;
+	overflow: visible;
+	width: 455px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Rectangle_13 {
+	fill: rgba(156,209,222,1);
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 489px;
+	height: 409px;
+	left: 890px;
+	top: 1700px;
+}
+#Chair {
+	left: 175px;
+	top: 1656px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#FURNITURE {
+	left: 175px;
+	top: 1710px;
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 44px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#OUR_POPULAR_PRODUCTS {
+	left: 425px;
+	top: 2268px;
+	position: absolute;
+	overflow: visible;
+	width: 589px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 44px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#For_customized_furniture_which {
+	left: 175px;
+	top: 1790px;
+	position: absolute;
+	overflow: visible;
+	width: 289px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#chairs {
+	position: absolute;
+	width: 398px;
+	height: 497px;
+	left: 948px;
+	top: 1656px;
+	overflow: visible;
+}
+#PF_3 {
+	position: absolute;
+	width: 302px;
+	height: 426px;
+	left: 599px;
+	top: 2386px;
+	overflow: visible;
+}
+#PF_2 {
+	position: absolute;
+	width: 304px;
+	height: 426px;
+	left: 206px;
+	top: 2386px;
+	overflow: visible;
+}
+#Comfy_Chair {
+	left: 289px;
+	top: 2831px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Lamp {
+	left: 717px;
+	top: 2831px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#ID500 {
+	left: 323px;
+	top: 2872px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(255,0,0,1);
+	letter-spacing: 0.45px;
+}
+#ID300 {
+	left: 707px;
+	top: 2875px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Icon_awesome-search {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-search {
+	overflow: visible;
+	position: absolute;
+	width: 22.721px;
+	height: 22.721px;
+	left: 1347.387px;
+	top: 27.266px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-shopping-cart {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-shopping-cart {
+	overflow: visible;
+	position: absolute;
+	width: 22.721px;
+	height: 20.197px;
+	left: 1401.199px;
+	top: 28.78px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#DECORATION {
+	left: 993px;
+	top: 1004px;
+	position: absolute;
+	overflow: visible;
+	width: 306px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 44px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#For_customized_furniture_which_ba {
+	left: 993px;
+	top: 1083px;
+	position: absolute;
+	overflow: visible;
+	width: 289px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#PF_1 {
+	position: absolute;
+	width: 304px;
+	height: 426px;
+	left: 990px;
+	top: 2386px;
+	overflow: visible;
+}
+#Home_bc {
+	left: 1226px;
+	top: 958px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Line_7 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_7 {
+	overflow: visible;
+	position: absolute;
+	width: 134.057px;
+	height: 2px;
+	left: 1365.943px;
+	top: 973.578px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Unique_lights {
+	left: 1044px;
+	top: 2831px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#ID800 {
+	left: 1086px;
+	top: 2872px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(255,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Group_12 {
+	position: absolute;
+	width: 1500px;
+	height: 410px;
+	left: 0px;
+	top: 3086px;
+	overflow: visible;
+}
+#Rectangle_4 {
+	fill: rgba(235,235,235,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 1500px;
+	height: 410px;
+	left: 0px;
+	top: 0px;
+}
+#Subscribe_to_our_Newsletter {
+	left: 511px;
+	top: 57px;
+	position: absolute;
+	overflow: visible;
+	width: 480px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#We_make_sure_you_dont_miss_any {
+	left: 602px;
+	top: 121px;
+	position: absolute;
+	overflow: visible;
+	width: 297px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Rectangle_5 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(199,199,199,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 508px;
+	height: 59px;
+	left: 496px;
+	top: 176px;
+}
+#Email_address_here {
+	opacity: 0.45;
+	left: 528px;
+	top: 193px;
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.45px;
+}
+#Rectangle_6 {
+	fill: rgba(1,134,146,1);
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	height: 56px;
+	left: 654px;
+	top: 270px;
+}
+#Subscribe {
+	left: 697px;
+	top: 284px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.45px;
+}
